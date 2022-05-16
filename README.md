@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# RetailSpotlight Frontend Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Brief
 
-## Available Scripts
+The goal of this assessment is to pull data from an api and render it in a way that informs the user what trends are happening. The data you will be plotting is Stock and GDP data from [Alphavantage](https://www.alphavantage.co/), documentation for their api can be found [here](https://www.alphavantage.co/documentation/), The APIKEY 'demo' can be used in all your requests for this exercise.
 
-In the project directory, you can run:
+At Retailspotlight we libraries to help do [charting](https://www.chartjs.org/) and rendering [tables](https://mui.com/material-ui/react-table/), feel free to use them or other libraries you are familiar with: 
 
-### `npm start`
+## Task One: 
+I'm interested in seeing various economic indicators visuallised to aid my understanding and would like the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Render the Economic Indicator of **GDP** in a table displaying the date and value in pounds sterling. 
+2. Render the weekly prices of the stock **IBM** in a table with date, open, high, low, close, and volume for each row.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For each of these tables bear in mind the formatting of the data. Dates should be displayed in the format of 03/05/2022 and currency data should be rendered as money.  
 
-### `npm test`
+## Task Two: 
+Now we have the data in tabular I'd like the data plotted visually to aid my understanding:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Plot the Economic Indicator of **GDP** in a chart.
+2. Plot the weekly prices of the stock **IBM** in a table with date, open, high, low, close, and volume as a time series.
 
-### `npm run build`
+### Bonus Task: 
+This is a extra task that you should only undertake if you enjoying the challenge and are below  
+1. Add the ability to toggle on and off the various time series. For instance I only want to see the opening price on the weekly price chart.  
+2. As you hover over rows in the table highlight like the corresponding plots of the chart to highlight and display the price information in the chart.    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequites 
+To undertake this challenge your computer will need the following installed: 
+- Node v17.4.0
+- NPM 8.3.1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
+Clone this repo locally, once in the project directory, you can run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm install` : to install dependencies.
+- `npm start` : to start the app in development mode. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Submitting your Solution
+Uploaded to your personal github/bitbucket, make public and email us the link. 
