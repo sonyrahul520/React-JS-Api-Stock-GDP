@@ -4,7 +4,7 @@
 
 The goal of this assessment is to pull data from an api and render it in a way that informs the user what trends are happening. The data you will be plotting is Stock and GDP data from [Alphavantage](https://www.alphavantage.co/), documentation for their api can be found [here](https://www.alphavantage.co/documentation/), The APIKEY 'demo' can be used in all your requests for this exercise.
 
-At Retailspotlight we libraries to help do [charting](https://www.chartjs.org/) and rendering [tables](https://mui.com/material-ui/react-table/), feel free to use them or other libraries you are familiar with: 
+At Retailspotlight we use libraries to help us do [charting](https://www.chartjs.org/) and rendering of [tables](https://mui.com/material-ui/react-table/), feel free to use them or other libraries you are familiar with: 
 
 ## Task One: 
 I'm interested in seeing various economic indicators visuallised to aid my understanding and would like the following features:
