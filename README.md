@@ -21,7 +21,7 @@ Now we have the data in tabular I'd like the data plotted visually to aid my und
 2. Plot the weekly prices of the stock **IBM** in a table with date, open, high, low, close, and volume as a time series.
 
 ### Bonus Task: 
-This is a extra task that you should only undertake if you enjoying the challenge and are below  
+This is a extra task that you should only undertake if you enjoying the challenge and are happy to spend the time.  
 1. Add the ability to toggle on and off the various time series. For instance I only want to see the opening price on the weekly price chart.  
 2. As you hover over rows in the table highlight like the corresponding plots of the chart to highlight and display the price information in the chart.    
 
