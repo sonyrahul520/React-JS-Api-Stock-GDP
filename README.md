@@ -31,11 +31,11 @@ From the Question, it was assumed that the solution needs to have homepage as we
 For the weekly prices of the stock **IBM**, since the volume value was too high compared with the other four line graphs, it was visualized sqperately in a different graph for easy viewing. 
 
 Several packages were installed as part of the project including 
-i) React-Router-dom at npm i -D react-router-dom@latest
-ii) for Chart.js wrapper library npm i react-chartjs-2 chart.js
-iii)Chart.js npm install chart.js
-iv) React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
-v) Moment library for changing the date format npm install moment --save  
+1.  React-Router-dom at npm i -D react-router-dom@latest
+2.  for Chart.js wrapper library npm i react-chartjs-2 chart.js
+3. Chart.js npm install chart.js
+4.  React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
+5.  Moment library for changing the date format npm install moment --save  
 
 ## Prerequisites 
 To undertake this challenge your computer will need the following installed: 
