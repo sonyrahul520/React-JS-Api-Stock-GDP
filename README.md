@@ -8,7 +8,7 @@ For the weekly prices of the stock **IBM**, since the volume value was too high 
 
 Several packages were installed as part of the project including 
 1.  React-Router-dom at npm i -D react-router-dom@latest
-2.  for Chart.js wrapper library npm i react-chartjs-2 chart.js
+2.  React Chart.js wrapper library npm i react-chartjs-2 chart.js
 3. Chart.js npm install chart.js
 4.  React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
 5.  Moment library for changing the date format npm install moment --save  
