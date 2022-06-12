@@ -1,5 +1,18 @@
 # Retail Spotlight Frontend Challenge
 
+
+## Assumptions made in the Solution
+From the Question, it was assumed that the solution needs to have homepage as well as GDP and Stock data of IBM are to be rendered in different web pages. 
+
+For the weekly prices of the stock **IBM**, since the volume value was too high compared with the other four line graphs, it was visualized sqperately in a different graph for easy viewing. 
+
+Several packages were installed as part of the project including 
+1.  React-Router-dom at npm i -D react-router-dom@latest
+2.  for Chart.js wrapper library npm i react-chartjs-2 chart.js
+3. Chart.js npm install chart.js
+4.  React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
+5.  Moment library for changing the date format npm install moment --save  
+
 ## Brief
 
 The goal of this assessment is to pull data from an api and render it in a way that informs the user what financial trends are happening in the market. 
@@ -25,17 +38,7 @@ This is a extra task that you should only undertake if you enjoying the challeng
 1. Add the ability to toggle on and off the various time series. For instance, I only want to see the opening price on the weekly price chart (rather than all 5 options).  
 2. As you hover over rows in the table highlight like the corresponding plots of the chart to highlight and display the price information in the chart.    
 
-## Assumptions made in the Solution
-From the Question, it was assumed that the solution needs to have homepage as well as GDP and Stock data of IBM are to be rendered in different web pages. 
 
-For the weekly prices of the stock **IBM**, since the volume value was too high compared with the other four line graphs, it was visualized sqperately in a different graph for easy viewing. 
-
-Several packages were installed as part of the project including 
-1.  React-Router-dom at npm i -D react-router-dom@latest
-2.  for Chart.js wrapper library npm i react-chartjs-2 chart.js
-3. Chart.js npm install chart.js
-4.  React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
-5.  Moment library for changing the date format npm install moment --save  
 
 ## Prerequisites 
 To undertake this challenge your computer will need the following installed: 
