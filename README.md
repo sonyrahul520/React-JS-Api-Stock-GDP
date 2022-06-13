@@ -13,6 +13,12 @@ Several packages were installed as part of the project including
 4.  React-Material-UI for table npm install @mui/material @emotion/react @emotion/styled
 5.  Moment library for changing the date format npm install moment --save  
 
+
+![Screenshot 2022-06-13 103906](https://user-images.githubusercontent.com/39365623/173328195-ae0a12d8-8691-4d3e-a938-377a4c30db21.png)
+![Web capture_13-6-2022_104029_localhost](https://user-images.githubusercontent.com/39365623/173328233-b5b42a7e-54f9-4755-957f-c8b45bff8416.jpeg)
+![Web capture_13-6-2022_103955_localhost](https://user-images.githubusercontent.com/39365623/173328252-ab2ee934-5496-4683-977d-59e9b52e5ad7.jpeg)
+
+
 ## Brief
 
 The goal of this assessment is to pull data from an api and render it in a way that informs the user what financial trends are happening in the market. 
