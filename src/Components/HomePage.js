@@ -14,13 +14,17 @@ const bull = (
         component="span"
         sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
     >
-        •
+        
     </Box>
 );
 
 
 
 function HomePage() {
+    
+    //With the react-router-dom the navigation links to different page is created.
+    
+    
     return (
         <div>
         <Card sx={{ minWidth: 500,  margin: '20px' }}>
