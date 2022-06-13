@@ -29,7 +29,7 @@ const DataVal = () => {
                     setIsLoaded(true);
                     setData(result.data);
                     setChartData({
-                        labels: result.data.map((value) => value.date),
+                        labels: result.data.map((value) => value.date),   //the label of graph is obtained from the date 
                         datasets: [
                             {
                                 label: "Price in Dollars",
@@ -72,6 +72,11 @@ const DataVal = () => {
 
             </div>
        return (
+           
+             //the data from api is rendered to the table
+             //the Moment library is used for rendering the date in ('DD/MM/YYYY') form
+           
+           
            <div>
                <h3>The economic indicator of GDP</h3>
                <div><ChartDat chartData={chartData} /></div>
