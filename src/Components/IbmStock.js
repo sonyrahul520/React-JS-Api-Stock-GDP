@@ -51,7 +51,7 @@ class IbmStock extends React.Component {
                 <Line
                     datasetIdKey='id'
                     data={{
-                        labels: stockData.map(test => (test[0])),
+                        labels: stockData.map(test => (test[0])), //loading the labels in api after extracting.
                         datasets: [
                             {
                                 id: 1,
